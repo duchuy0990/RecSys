@@ -1,0 +1,6 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+data/*
+ml-10M100K/*
+ml-100k/*

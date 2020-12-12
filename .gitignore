@@ -1,0 +1,4 @@
+# Default ignored files
+data/*
+ml-10M100K/*
+ml-100k/*
