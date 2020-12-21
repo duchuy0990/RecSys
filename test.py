@@ -32,8 +32,13 @@
 import functools
 import itertools
 
-# print({{1,2},3} | {1,2,3})
-a = {"a":[1,2,3,4]}
+from reduct_finding import ReductFindingRecommend
 
-a["a"].append(5)
-print(a)
+train_file = "data/u.test"
+test_file = "input_data.txt"
+output_file = "output.dat"
+rf = ReductFindingRecommend(train_file,test_file=None)
+
+rf.read_files()
+
+rf.process_reduct_finding()
